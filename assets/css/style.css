@@ -279,11 +279,11 @@ body {
 }
 
 body {
-    background-color: #0c0c0c;
+    background-color: #fff;
     font-size: 14px;
     line-height: 1.6;
     font-family: "Montserrat", sans-serif;
-    color: #fff;
+    color: #0c0c0c;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
 }
@@ -292,7 +292,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.5);
     overflow: hidden
 }
 
@@ -329,7 +329,7 @@ body {
     height: 70%;
     max-height: 750px;
     background-color: #555;
-    opacity: .35;
+    opacity: .85;
     z-index: 10
 }
 
@@ -546,7 +546,7 @@ body {
     position: relative;
     width: 16px;
     height: 2px;
-    background-color: #fff
+    background-color: pink;
 }
 
 .header--nav-toggle::before {
@@ -571,7 +571,7 @@ body {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #0f33ff;
+    background-color: pink;
     border: none;
     opacity: 0;
     visibility: hidden;
@@ -631,7 +631,7 @@ body {
     position: relative;
     top: 3px;
     left: 10px;
-    color: #fff;
+    color: pink;
     font-size: 14px;
     font-weight: 300;
     opacity: 0;
@@ -668,7 +668,7 @@ body {
 }
 
 .side-nav li.is-active {
-    color: #0f33ff;
+    color: pink;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out
 }
@@ -682,7 +682,7 @@ body {
 
 .side-nav li.is-active::before {
     left: -33px;
-    color: #fff
+    color: pink;
 }
 
 .intro {
@@ -734,7 +734,7 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #0f33ff
+    background-color: pink;
 }
 
 .intro--banner h1 {
@@ -760,7 +760,7 @@ body {
     left: 23px;
     right: 0;
     height: 100%;
-    background-color: #0f33ff;
+    background-color: pink;
     z-index: -1;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
@@ -810,7 +810,7 @@ body {
 }
 
 .intro--options>a:hover {
-    color: #fff
+    color: pink;
 }
 
 .intro--options h3 {
@@ -948,7 +948,7 @@ body {
 
 .work--lockup .slider--item a {
     text-decoration: none;
-    color: #858585
+    color: pink;
 }
 
 .work--lockup .slider--item-title {
@@ -1002,7 +1002,7 @@ body {
 }
 
 .work--lockup .slider--item-center a {
-    color: #fff
+    color: pink;
 }
 
 .work--lockup .slider--item-center .slider--item-title {
@@ -1011,7 +1011,8 @@ body {
 }
 
 .work--lockup .slider--item-center .slider--item-description {
-    display: block
+    display: block;
+    color: #858585;
 }
 
 .work--lockup .slider--item-center .slider--item-image {
@@ -1138,7 +1139,7 @@ body {
     left: 200px;
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    border: 5px solid #0f33ff;
+    border: 5px solid pink;
     border-right-color: transparent;
     border-bottom-color: transparent
 }
@@ -1152,7 +1153,7 @@ body {
     transform: rotate(45deg);
     width: 10px;
     height: 10px;
-    background-color: #0f33ff
+    background-color: pink
 }
 
 .about--banner h2 {
@@ -1171,7 +1172,7 @@ body {
     left: 268px;
     width: 30px;
     height: 30px;
-    background-color: #0f33ff;
+    background-color: pink;
     border-radius: 50%
 }
 
@@ -1182,7 +1183,7 @@ body {
     left: 255px;
     width: 10px;
     height: 10px;
-    background-color: #0f33ff
+    background-color: pink
 }
 
 .about--banner a {
@@ -1233,8 +1234,8 @@ body {
     width: 150px;
     height: 75px;
     text-decoration: none;
-    color: #fff;
-    border: 10px solid #0f33ff;
+    color: black;
+    border: 10px solid pink;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1474,7 +1475,7 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff
+    color: black;
 }
 
 .work-request input[type="submit"] {
@@ -1484,7 +1485,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #0f33ff;
+    background-color: pink;
     border: none;
     border-radius: 0
 }
@@ -1545,7 +1546,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid black;
     cursor: pointer;
     -webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
     transition: background-color .2s ease-in-out, border-color .2s ease-in-out
@@ -1565,8 +1566,8 @@ body {
 }
 
 .work-request--options input[type="checkbox"]:checked+label {
-    background-color: #0f33ff;
-    border-color: #0f33ff
+    background-color: pink;
+    border-color: pink;
 }
 
 .work-request--options input[type="checkbox"]:checked+label svg {
@@ -1601,14 +1602,14 @@ body {
     padding: 0 0 5px 0;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid pink;
     border-radius: 0
 }
 
 .work-request--information input[type="text"]:focus,
 .work-request--information input[type="email"]:focus {
     outline: none;
-    background-color: #0c0c0c
+    background-color: pink;
 }
 
 .work-request--information label {
@@ -1724,7 +1725,7 @@ body {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #0f33ff
+    outline: 30px solid pink;
 }
 
 .outer-nav {
@@ -1798,7 +1799,7 @@ body {
     width: 110%;
     height: 15px;
     opacity: 0;
-    background-color: #0f33ff
+    background-color: pink;
 }
 
 .outer-nav>li.is-active::before {
